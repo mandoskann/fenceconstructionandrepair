@@ -1180,6 +1180,19 @@ footer {
 }
 .footer-col a:hover { color: var(--cedar-light); }
 
+.social-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: rgba(245, 239, 230, 0.65);
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.social-btn svg { width: 20px; height: 20px; flex-shrink: 0; }
+.social-btn:hover { color: var(--cedar); }
+
 .footer-bottom {
   max-width: 1400px;
   margin: 0 auto;
@@ -1648,7 +1661,7 @@ footer {
           </div>
           <div>
             <div class="contact-item-label">Hours</div>
-            <div class="contact-item-value">Mon–Sat · 7am–6pm</div>
+            <div class="contact-item-value">Mon–Sun · 24 Hours</div>
           </div>
         </div>
       </div>
@@ -1730,8 +1743,18 @@ footer {
         <li><a href="#work">Our Work</a></li>
         <li><a href="#process">Process</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li><a href="https://www.instagram.com/vista_fence_llc/" target="_blank">Instagram</a></li>
       </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Follow Us</h5>
+      <a href="https://www.instagram.com/vista_fence_llc/" target="_blank" class="social-btn" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+          <circle cx="12" cy="12" r="4"/>
+          <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/>
+        </svg>
+        @vista_fence_llc
+      </a>
     </div>
   </div>
   <div class="footer-bottom">
